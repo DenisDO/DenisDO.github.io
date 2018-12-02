@@ -551,7 +551,7 @@ main .team__block {
           box-shadow: 0 0 10px 0 #344b8e; }
         main .team__block .team__block__container .team__list .team__item .team__socials .social-sprite {
           float: left;
-          background-image: url(../Images/spriteSocial.png);
+          background-image: url(../img/spriteSocial.png);
           background-repeat: no-repeat;
           display: block;
           border-radius: 50%;
