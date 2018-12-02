@@ -359,9 +359,9 @@ header {
   background-color: #87509c;
   color: #ffffff;
   font-family: "Titillium Web";
-  font-size: 12pt; }
+  font-size: 16px; }
   header nav {
-    height: 97px;
+    height: 94px;
     position: relative; }
     header nav .header__logo {
       transition: 600ms;
@@ -371,46 +371,52 @@ header {
     header nav .header__nav {
       transition: 600ms;
       position: absolute;
-      bottom: 7px;
-      right: 164px; }
+      bottom: 9px;
+      right: 159px; }
       header nav .header__nav li {
         display: inline; }
         header nav .header__nav li a {
           color: #ffffff;
           text-decoration: none;
-          padding: 10px 20px;
+          padding: 4px 20px;
           transition: 200ms;
           border-radius: 5px; }
           header nav .header__nav li a:hover {
             background-color: #643a79; }
+        header nav .header__nav li .header__link--active {
+          background-color: #643a79; }
+
+main .block__container, main .article__block .article__container, main .service__block .service__block__container, main .team__block .team__block__container, main .skills__block .skills__block__container, main .portfolio__block .portfolio__block__container, main .reviews__block .reviews__block__container, main .feedback__block .feedback__block__container {
+  text-align: center;
+  padding: 119px 0 0 0;
+  width: 1100px;
+  margin: 0 auto; }
 
 main .article__block {
   background-color: #87509c;
   color: #ffffff;
   font-family: "Titillium Web";
   font-size: 16pt;
-  height: 504px;
+  height: 502px;
   width: 100%;
   position: relative; }
   main .article__block .article__container {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-    text-align: center; }
+    padding-top: 134px; }
     main .article__block .article__container h3 {
       font-family: "Titillium Web";
-      font-size: 33pt;
-      font-weight: bold;
-      line-height: 1;
+      font-size: 42px;
+      line-height: 48.82px;
+      font-weight: 700;
       margin-bottom: 60px;
       transition: 600ms; }
     main .article__block .article__container .header__button {
-      font-weight: 600;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 26.19px;
+      letter-spacing: 0.27px;
       margin: 0 auto;
-      width: 290px;
-      height: 65px;
+      width: 293px;
+      height: 66px;
       position: relative;
       background-color: #eb7d4b;
       transition: 300ms;
@@ -418,77 +424,92 @@ main .article__block {
       padding: 23px 0;
       bottom: 0;
       box-sizing: border-box;
-      box-shadow: 0 5px 0 0 #c86a40;
+      box-shadow: 0 4px 0 0 #c86a40;
       cursor: pointer; }
       main .article__block .article__container .header__button:hover {
         box-shadow: none;
-        bottom: -5px; }
+        bottom: -4px; }
 
 main .service__block {
   background-color: #17c2a4;
   color: #ffffff;
   font-family: "Titillium Web"; }
-  main .service__block .service__block__container {
-    text-align: center;
-    padding: 113px 0; }
-    main .service__block .service__block__container .block__title {
-      font-family: "Titillium Web";
-      font-weight: bold;
-      font-size: 27pt;
-      color: #ffffff;
-      line-height: 1; }
-    main .service__block .service__block__container .block__decoLine {
-      width: 85px;
-      height: 4px;
-      margin: 20px auto;
-      background-color: #14a58c; }
-    main .service__block .service__block__container .block__description {
-      font-size: 15pt;
-      line-height: 1;
-      width: 100%;
-      margin-bottom: 70px; }
+  main .service__block .service__block__container .block__title {
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 29.91px;
+    letter-spacing: 4px; }
+  main .service__block .service__block__container .block__decoLine {
+    width: 87px;
+    height: 4px;
+    margin: 21px auto;
+    background-color: #14a58c; }
+  main .service__block .service__block__container .block__description {
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    margin-bottom: 82px; }
+  main .service__block .service__block__container .service__features {
+    padding-bottom: 96px; }
     main .service__block .service__block__container .service__features .service__features__item {
       transition: 600ms;
       display: inline-block;
-      margin: 0 55px; }
+      margin: 0 49px; }
       main .service__block .service__block__container .service__features .service__features__item img {
         height: 130px;
-        margin-bottom: 70px; }
+        margin-bottom: 47px; }
       main .service__block .service__block__container .service__features .service__features__item h4 {
-        font-size: 17pt;
-        font-weight: bold;
-        margin: 0 0 31px 0; }
+        font-family: "Titillium Web";
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.48px;
+        margin-bottom: 27px; }
       main .service__block .service__block__container .service__features .service__features__item p {
         width: 170px;
-        font-size: 14pt; }
+        font-family: "Titillium Web";
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0.32px; }
 
 main .team__block {
   background-color: #e7f1f8;
   color: #3c4761;
   font-family: "Titillium Web"; }
-  main .team__block .team__block__container {
-    text-align: center;
-    padding: 113px 0; }
-    main .team__block .team__block__container .block__title {
-      font-family: "Titillium Web";
-      font-weight: bold;
-      font-size: 27pt;
-      color: #3c4761;
-      line-height: 1; }
-    main .team__block .team__block__container .block__decoLine {
-      width: 85px;
-      height: 4px;
-      margin: 20px auto;
-      background-color: #c8d9e5; }
-    main .team__block .team__block__container .block__description {
-      font-size: 15pt;
-      line-height: 1;
-      width: 100%;
-      margin-bottom: 70px; }
+  main .team__block .team__block__container .block__title {
+    color: #3c4761;
+    font-family: "Titillium Web";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 29.91px;
+    letter-spacing: 4px; }
+  main .team__block .team__block__container .block__decoLine {
+    width: 87px;
+    height: 4px;
+    margin: 21px auto;
+    background-color: #c8d9e5; }
+  main .team__block .team__block__container .block__description {
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 400;
+    color: #3c4761;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    margin-bottom: 82px;
+    margin-bottom: 77px; }
+  main .team__block .team__block__container .team__list {
+    padding-bottom: 127px; }
     main .team__block .team__block__container .team__list .team__item {
       transition: 600ms;
       display: inline-block;
-      margin: 0 17px; }
+      margin: 0 12px; }
       main .team__block .team__block__container .team__list .team__item .team__avatar {
         margin: 0 auto;
         height: 200px;
@@ -497,24 +518,37 @@ main .team__block {
         background-color: #c8d9e5;
         margin-bottom: 40px; }
       main .team__block .team__block__container .team__list .team__item .team__name {
-        font-size: 18pt;
-        font-weight: bold;
-        display: inline-block;
-        margin-bottom: 15px; }
+        font-family: "Titillium Web";
+        color: #3c4761;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.48px; }
       main .team__block .team__block__container .team__list .team__item .team__position {
-        font-size: 13pt;
-        color: #30bae7;
         display: inline-block;
-        margin-bottom: 30px; }
+        margin-bottom: 17px;
+        color: #30bae7;
+        font-family: "Titillium Web";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.32px; }
       main .team__block .team__block__container .team__list .team__item .team__description {
-        width: 250px;
-        font-size: 12pt;
-        margin-bottom: 30px; }
+        width: 248px;
+        margin-bottom: 51px;
+        color: #3c4761;
+        font-family: "Titillium Web";
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0.32px; }
       main .team__block .team__block__container .team__list .team__item .team__socials {
         width: 100%;
         box-sizing: border-box;
         padding: 0 60px;
         height: 32px; }
+        main .team__block .team__block__container .team__list .team__item .team__socials .social-sprite--active {
+          box-shadow: 0 0 10px 0 #344b8e; }
         main .team__block .team__block__container .team__list .team__item .team__socials .social-sprite {
           float: left;
           background-image: url(../Images/spriteSocial.png);
@@ -546,209 +580,209 @@ main .skills__block {
   background-color: #ffffff;
   color: #3c4761;
   font-family: "Titillium Web"; }
-  main .skills__block .skills__block__container {
-    text-align: center;
-    padding: 113px 0; }
-    main .skills__block .skills__block__container .block__title {
-      font-family: "Titillium Web";
-      font-weight: bold;
-      font-size: 27pt;
-      color: #3c4761;
-      line-height: 1; }
-    main .skills__block .skills__block__container .block__decoLine {
-      width: 85px;
-      height: 4px;
-      margin: 20px auto;
-      background-color: #dfe8ed; }
-    main .skills__block .skills__block__container .block__description {
-      font-size: 15pt;
-      line-height: 1;
-      width: 100%;
-      margin: 0 auto 70px auto; }
+  main .skills__block .skills__block__container .block__title {
+    color: #3c4761;
+    font-family: "Titillium Web";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 29.91px;
+    letter-spacing: 4px; }
+  main .skills__block .skills__block__container .block__decoLine {
+    width: 87px;
+    height: 4px;
+    margin: 21px auto;
+    background-color: #dfe8ed; }
+  main .skills__block .skills__block__container .block__description {
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 400;
+    color: #3c4761;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    margin-bottom: 82px;
+    margin-bottom: 62px; }
+  main .skills__block .skills__block__container .skills__list {
+    margin-bottom: 118px; }
     main .skills__block .skills__block__container .skills__list .skills__item {
       transition: 600ms;
-      margin: 0 40px;
-      display: inline-block;
+      margin: 0 41px;
       display: inline-block; }
-      main .skills__block .skills__block__container .skills__list .skills__item span {
-        font-size: 18pt;
-        font-weight: bold;
-        display: block;
-        margin-bottom: 15px; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle {
-        position: relative;
-        display: inline-block;
-        margin: 1rem;
-        width: 160px;
-        height: 160px;
-        border-radius: 50%;
-        background-color: #dfe8ed; }
-        main .skills__block .skills__block__container .skills__list .skills__item .progress--circle:before {
-          content: '';
-          position: absolute;
-          top: 12px;
-          left: 12px;
-          width: 136px;
-          height: 136px;
-          border-radius: 50%;
-          background-color: white; }
-        main .skills__block .skills__block__container .skills__list .skills__item .progress--circle:after {
-          content: '';
-          display: inline-block;
-          width: 100%;
-          height: 100%;
-          border-radius: 50%;
-          background-color: #63B8FF; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress__number {
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        line-height: 1;
-        margin-top: -0.75rem;
-        text-align: center;
-        font-size: 1.5rem;
-        color: #3c4761; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--0:after {
-        width: 0%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--0:after {
-        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(90deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--5:after {
-        width: 5%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--5:after {
-        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(108deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--10:after {
-        width: 10%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--10:after {
-        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(126deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--15:after {
-        width: 15%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--15:after {
-        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(144deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--20:after {
-        width: 20%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--20:after {
-        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(162deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--25:after {
-        width: 25%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--25:after {
-        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(180deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--30:after {
-        width: 30%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--30:after {
-        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(198deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--35:after {
-        width: 35%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--35:after {
-        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(216deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--40:after {
-        width: 40%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--40:after {
-        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(234deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--45:after {
-        width: 45%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--45:after {
-        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(252deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--50:after {
-        width: 50%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--50:after {
-        background-image: linear-gradient(-90deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--55:after {
-        width: 55%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--55:after {
-        background-image: linear-gradient(-72deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--60:after {
-        width: 60%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--60:after {
-        background-image: linear-gradient(-54deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--65:after {
-        width: 65%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--65:after {
-        background-image: linear-gradient(-36deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--70:after {
-        width: 70%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--70:after {
-        background-image: linear-gradient(-18deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--75:after {
-        width: 75%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--75:after {
-        background-image: linear-gradient(0deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--80:after {
-        width: 80%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--80:after {
-        background-image: linear-gradient(18deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--85:after {
-        width: 85%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--85:after {
-        background-image: linear-gradient(36deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--90:after {
-        width: 90%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--90:after {
-        background-image: linear-gradient(54deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--95:after {
-        width: 95%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--95:after {
-        background-image: linear-gradient(72deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd); }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--bar.progress--100:after {
-        width: 100%; }
-      main .skills__block .skills__block__container .skills__list .skills__item .progress--circle.progress--100:after {
-        background-image: linear-gradient(90deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd); }
+      main .skills__block .skills__block__container .skills__list .skills__item *,
+      main .skills__block .skills__block__container .skills__list .skills__item *:before,
+      main .skills__block .skills__block__container .skills__list .skills__item *:after {
+        box-sizing: border-box; }
+      main .skills__block .skills__block__container .skills__list .skills__item h4 {
+        font-family: "Titillium Web";
+        color: #3c4761;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.48px; }
+
+main .pie-wrapper {
+  height: 160px;
+  width: 160px;
+  float: left;
+  margin: 15px;
+  margin-bottom: 31px;
+  position: relative; }
+  main .pie-wrapper:nth-child(3n + 1) {
+    clear: both; }
+  main .pie-wrapper .pie {
+    height: 100%;
+    width: 100%;
+    clip: rect(0, 160px, 160px, 80px);
+    left: 0;
+    position: absolute;
+    top: 0; }
+    main .pie-wrapper .pie .half-circle {
+      height: 100%;
+      width: 100%;
+      border: 16px solid #3498db;
+      border-radius: 50%;
+      clip: rect(0, 80px, 160px, 0);
+      left: 0;
+      position: absolute;
+      top: 0; }
+  main .pie-wrapper .label {
+    background: #3c4761;
+    border-radius: 50%;
+    bottom: 3.2px;
+    color: #ecf0f1;
+    cursor: default;
+    display: block;
+    font-size: 32px;
+    left: 3.2px;
+    line-height: 22.4px;
+    position: absolute;
+    top: 61px;
+    text-align: center;
+    left: 47px; }
+    main .pie-wrapper .label .smaller {
+      color: #bdc3c7;
+      font-size: .45em;
+      padding-bottom: 20px;
+      vertical-align: super; }
+  main .pie-wrapper .shadow {
+    height: 100%;
+    width: 100%;
+    border: 16px solid #dfe8ed;
+    border-radius: 50%; }
+  main .pie-wrapper .label {
+    background: none;
+    color: #3c4761;
+    font-size: 50px; }
+    main .pie-wrapper .label .smaller {
+      color: #3c4761; }
+  main .pie-wrapper.progress-85 .pie {
+    clip: rect(auto, auto, auto, auto); }
+    main .pie-wrapper.progress-85 .pie .half-circle {
+      border-color: #eb7d4b; }
+    main .pie-wrapper.progress-85 .pie .left-side {
+      -ms-transform: rotate(306deg);
+          transform: rotate(306deg); }
+    main .pie-wrapper.progress-85 .pie .right-side {
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
+  main .pie-wrapper.progress-90 .pie {
+    clip: rect(auto, auto, auto, auto); }
+    main .pie-wrapper.progress-90 .pie .half-circle {
+      border-color: #30bae7; }
+    main .pie-wrapper.progress-90 .pie .left-side {
+      -ms-transform: rotate(324deg);
+          transform: rotate(324deg); }
+    main .pie-wrapper.progress-90 .pie .right-side {
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
+  main .pie-wrapper.progress-75 .pie {
+    clip: rect(auto, auto, auto, auto); }
+    main .pie-wrapper.progress-75 .pie .half-circle {
+      border-color: #d74680; }
+    main .pie-wrapper.progress-75 .pie .left-side {
+      -ms-transform: rotate(270deg);
+          transform: rotate(270deg); }
+    main .pie-wrapper.progress-75 .pie .right-side {
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
+  main .pie-wrapper.progress-70 .pie {
+    clip: rect(auto, auto, auto, auto); }
+    main .pie-wrapper.progress-70 .pie .half-circle {
+      border-color: #15c7a8; }
+    main .pie-wrapper.progress-70 .pie .left-side {
+      -ms-transform: rotate(252deg);
+          transform: rotate(252deg); }
+    main .pie-wrapper.progress-70 .pie .right-side {
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+main .label {
+  background: transparent; }
 
 main .portfolio__block {
   background-color: #ffdd99;
   color: #393939;
   font-family: "Titillium Web"; }
   main .portfolio__block .portfolio__block__container {
-    text-align: center;
-    padding: 113px 0; }
+    padding-bottom: 113px; }
     main .portfolio__block .portfolio__block__container .block__title {
-      font-family: "Titillium Web";
-      font-weight: bold;
-      font-size: 27pt;
       color: #393939;
-      line-height: 1; }
+      font-family: "Titillium Web";
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 29.91px;
+      letter-spacing: 4px; }
     main .portfolio__block .portfolio__block__container .block__decoLine {
-      width: 85px;
+      width: 87px;
       height: 4px;
-      margin: 20px auto;
+      margin: 21px auto;
       background-color: #ebc985; }
     main .portfolio__block .portfolio__block__container .block__description {
-      font-size: 15pt;
-      line-height: 1;
-      width: 100%;
-      margin: 0 auto 70px auto; }
+      font-family: "Titillium Web";
+      font-size: 18px;
+      font-weight: 400;
+      color: #393939;
+      line-height: 26px;
+      letter-spacing: 0.36px;
+      margin-bottom: 82px;
+      margin-bottom: 48px; }
     main .portfolio__block .portfolio__block__container .portfolio__nav {
-      padding-bottom: 60px; }
+      padding-bottom: 73px; }
       main .portfolio__block .portfolio__block__container .portfolio__nav li {
         display: inline; }
         main .portfolio__block .portfolio__block__container .portfolio__nav li a {
           color: #393939;
           background-color: #ebc985;
           text-decoration: none;
-          padding: 7px 23px;
+          padding: 6px 20px;
           margin: 0 4px;
           transition: 200ms;
           border-radius: 5px;
-          font-size: 14pt; }
+          font-size: 18px; }
           main .portfolio__block .portfolio__block__container .portfolio__nav li a:hover {
             background-color: #ffffff; }
+        main .portfolio__block .portfolio__block__container .portfolio__nav li .portfolio__nav--active {
+          background-color: #ffffff; }
     main .portfolio__block .portfolio__block__container .portfolio__items {
       transition: 600ms;
       width: 1125px;
-      margin: 0 auto; }
+      margin: 0 auto 19px auto; }
       main .portfolio__block .portfolio__block__container .portfolio__items li {
         display: inline-block;
         margin: 0 10px 16px 10px; }
         main .portfolio__block .portfolio__block__container .portfolio__items li img {
           transition: 600ms;
-          margin-bottom: 30px; }
+          margin-bottom: 22px; }
         main .portfolio__block .portfolio__block__container .portfolio__items li h5 {
           font-size: 14pt;
-          margin-bottom: 60px; }
+          margin-bottom: 47px; }
     main .portfolio__block .portfolio__block__container .portfolio__button {
-      font-weight: 600;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 26.19px;
+      letter-spacing: 0.27px;
       margin: 0 auto;
-      width: 290px;
-      height: 65px;
+      width: 293px;
+      height: 66px;
       position: relative;
       background-color: #17c2a4;
       transition: 300ms;
@@ -756,40 +790,47 @@ main .portfolio__block {
       padding: 23px 0;
       bottom: 0;
       box-sizing: border-box;
-      box-shadow: 0 5px 0 0 #14a58c;
+      box-shadow: 0 4px 0 0 #14a58c;
       cursor: pointer;
       color: #ffffff;
       font-size: 14pt; }
       main .portfolio__block .portfolio__block__container .portfolio__button:hover {
         box-shadow: none;
-        bottom: -5px; }
+        bottom: -4px; }
 
 main .reviews__block {
   background-color: #d74680;
   color: #ffffff;
   font-family: "Titillium Web"; }
-  main .reviews__block .reviews__block__container {
-    text-align: center;
-    padding: 113px 0 0 0; }
-    main .reviews__block .reviews__block__container .block__title {
-      font-family: "Titillium Web";
-      font-weight: bold;
-      font-size: 27pt;
-      color: #ffffff;
-      line-height: 1; }
-    main .reviews__block .reviews__block__container .block__decoLine {
-      width: 85px;
-      height: 4px;
-      margin: 20px auto;
-      background-color: #b73c6d; }
-    main .reviews__block .reviews__block__container .block__description {
-      font-size: 15pt;
-      line-height: 1;
-      width: 100%;
-      margin: 0 auto 70px auto; }
+  main .reviews__block .reviews__block__container .block__title {
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 29.91px;
+    letter-spacing: 4px; }
+  main .reviews__block .reviews__block__container .block__decoLine {
+    width: 87px;
+    height: 4px;
+    margin: 21px auto;
+    background-color: #b73c6d; }
+  main .reviews__block .reviews__block__container .block__description {
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    margin-bottom: 82px;
+    margin-bottom: 66px; }
+  main .reviews__block .reviews__block__container .reviews__items {
+    width: 100%; }
     main .reviews__block .reviews__block__container .reviews__items li {
       display: inline-block;
-      margin: 0 20px 200px 45px; }
+      width: 490px;
+      margin-bottom: 133px; }
+      main .reviews__block .reviews__block__container .reviews__items li:nth-child(odd) {
+        margin-right: 90px; }
       main .reviews__block .reviews__block__container .reviews__items li .reviews__avatar {
         float: left;
         margin-right: 50px;
@@ -797,50 +838,69 @@ main .reviews__block {
         width: 100px;
         border-radius: 50%;
         background-color: #787878; }
-      main .reviews__block .reviews__block__container .reviews__items li div {
-        text-align: left; }
-        main .reviews__block .reviews__block__container .reviews__items li div .reviews__article {
-          font-style: italic;
-          font-size: 12pt;
-          width: 290px;
+      main .reviews__block .reviews__block__container .reviews__items li .reviews__info {
+        text-align: left;
+        padding-left: 150px; }
+        main .reviews__block .reviews__block__container .reviews__items li .reviews__info .reviews__article {
+          width: 340px;
           display: inline-block;
-          margin-bottom: 30px; }
-        main .reviews__block .reviews__block__container .reviews__items li div .reviews__name {
-          font-weight: bold;
-          font-size: 14pt;
-          display: inline-block; }
-        main .reviews__block .reviews__block__container .reviews__items li div .reviews__position {
+          margin-bottom: 25px;
+          font-family: "Titillium Web";
+          font-size: 21px;
+          font-style: italic;
+          line-height: 31.2px;
+          letter-spacing: 0.35px; }
+        main .reviews__block .reviews__block__container .reviews__items li .reviews__info .reviews__name {
+          width: 340px;
+          display: inline-block;
+          font-family: "Titillium Web";
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 26px;
+          letter-spacing: 0.48px; }
+        main .reviews__block .reviews__block__container .reviews__items li .reviews__info .reviews__position {
+          width: 340px;
           color: #ffdd99;
-          font-size: 12pt;
-          display: inline-block; }
+          display: inline-block;
+          font-family: "Titillium Web";
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 26px;
+          letter-spacing: 0.36px; }
 
 main .feedback__block {
   background-color: #344b8e;
   color: #ffffff;
   font-family: "Titillium Web"; }
   main .feedback__block .feedback__block__container {
-    text-align: center;
-    padding: 113px 0 113px 0; }
+    padding-bottom: 140px; }
     main .feedback__block .feedback__block__container .block__title {
-      font-family: "Titillium Web";
-      font-weight: bold;
-      font-size: 27pt;
       color: #ffffff;
-      line-height: 1; }
+      font-family: "Titillium Web";
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 29.91px;
+      letter-spacing: 4px; }
     main .feedback__block .feedback__block__container .block__decoLine {
-      width: 85px;
+      width: 87px;
       height: 4px;
-      margin: 20px auto;
-      background-color: #344b8e; }
+      margin: 21px auto;
+      background-color: #273a71; }
     main .feedback__block .feedback__block__container .block__description {
-      font-size: 15pt;
-      line-height: 1;
-      width: 100%;
-      margin: 0 auto 70px auto; }
+      font-family: "Titillium Web";
+      font-size: 18px;
+      font-weight: 400;
+      color: #ffffff;
+      line-height: 26px;
+      letter-spacing: 0.36px;
+      margin-bottom: 82px;
+      margin-bottom: 72px; }
     main .feedback__block .feedback__block__container form {
+      box-sizing: border-box;
       margin: 0 auto;
       width: 863px; }
       main .feedback__block .feedback__block__container form input {
+        box-sizing: border-box;
         outline: none;
         background-color: #273a71;
         border: none;
@@ -856,6 +916,7 @@ main .feedback__block {
           color: #ffffff;
           font-size: 14pt; }
       main .feedback__block .feedback__block__container form textarea {
+        box-sizing: border-box;
         width: 807px;
         height: 180px;
         outline: none;
@@ -866,14 +927,17 @@ main .feedback__block {
         color: #ffffff;
         font-size: 14pt;
         padding: 20px 0 0 20px;
-        margin-bottom: 65px; }
+        margin-bottom: 55px; }
       main .feedback__block .feedback__block__container form .feedback__button {
         text-align: center;
         font-size: 14pt;
-        font-weight: 600;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26.19px;
+        letter-spacing: 0.27px;
         margin: 0 auto;
-        width: 290px;
-        height: 65px;
+        width: 293px;
+        height: 66px;
         position: relative;
         background-color: #30bae7;
         transition: 300ms;
@@ -881,11 +945,11 @@ main .feedback__block {
         padding: 23px 0;
         bottom: 0;
         box-sizing: border-box;
-        box-shadow: 0 5px 0 0 #299ec5;
+        box-shadow: 0 4px 0 0 #299ec5;
         cursor: pointer; }
         main .feedback__block .feedback__block__container form .feedback__button:hover {
           box-shadow: none;
-          bottom: -5px; }
+          bottom: -4px; }
 
 footer {
   height: 113px;
@@ -902,27 +966,39 @@ footer {
       line-height: 113px; }
       footer ul li a:hover {
         color: #30bae7; }
+    footer ul li .footer__nav--active {
+      color: #30bae7; }
 
-@media all and (max-width: 1360px) and (min-width: 992px) {
+@media all and (max-width: 1360px) and (min-width: 1009px) {
   header nav .header__logo {
     left: 70px; }
   header nav .header__nav {
     right: 70px; }
+  main .block__container, main .article__block .article__container, main .service__block .service__block__container, main .team__block .team__block__container, main .skills__block .skills__block__container, main .portfolio__block .portfolio__block__container, main .reviews__block .reviews__block__container, main .feedback__block .feedback__block__container {
+    width: 992px; }
   main .service__block .service__block__container .service__features .service__features__item {
     margin: 50px 140px; }
   main .team__block .team__block__container .team__list .team__item {
-    margin: 0 113px; }
+    margin: 0 113px 50px 113px; }
   main .skills__block .skills__block__container .skills__list .skills__item {
     margin: 50px 130px; }
   main .portfolio__block .portfolio__block__container .portfolio__items {
-    width: 100%; }
+    width: 992px; }
     main .portfolio__block .portfolio__block__container .portfolio__items li img {
       width: 500px;
       margin-bottom: 10px; }
+  main .feedback__block .feedback__block__container form {
+    width: 863px; }
+    main .feedback__block .feedback__block__container form input {
+      width: 100%;
+      margin: 0 0 20px 0; }
+    main .feedback__block .feedback__block__container form textarea {
+      width: 100%;
+      margin: 0 0 20px 0; }
   footer ul li a {
-    margin: 0 30px; } }
+    margin: 0 18px; } }
 
-@media all and (max-width: 992px) {
+@media all and (max-width: 1009px) {
   header nav {
     position: static; }
     header nav .header__logo {
@@ -934,8 +1010,32 @@ footer {
       display: none; }
   header article .article__container h3 {
     font-size: 30pt; }
+  main .block__container, main .article__block .article__container, main .service__block .service__block__container, main .team__block .team__block__container, main .skills__block .skills__block__container, main .portfolio__block .portfolio__block__container, main .reviews__block .reviews__block__container, main .feedback__block .feedback__block__container {
+    width: 690px; }
   main .service__block .service__block__container .service__features .service__features__item {
     margin: 50px 80px; }
+    main .service__block .service__block__container .service__features .service__features__item img {
+      height: 146px; }
+    main .service__block .service__block__container .service__features .service__features__item h4 {
+      font-size: 24px; }
+    main .service__block .service__block__container .service__features .service__features__item p {
+      font-size: 17px; }
+  main .team__block .team__block__container .team__list .team__item {
+    margin: 0 113px 50px 113px; }
+    main .team__block .team__block__container .team__list .team__item .team__avatar {
+      width: 300px;
+      height: 300px; }
+    main .team__block .team__block__container .team__list .team__item .team__name {
+      font-size: 30px; }
+    main .team__block .team__block__container .team__list .team__item .team__position {
+      font-size: 20px; }
+    main .team__block .team__block__container .team__list .team__item .team__description {
+      margin: 0;
+      width: 300px; }
+    main .team__block .team__block__container .team__list .team__item .team__socials {
+      padding: 0 86px; }
+  main .skills__block .skills__block__container .skills__list .skills__item {
+    margin: 50px 130px; }
   main .portfolio__block .portfolio__block__container .portfolio__items {
     width: 100%; }
     main .portfolio__block .portfolio__block__container .portfolio__items li img {
