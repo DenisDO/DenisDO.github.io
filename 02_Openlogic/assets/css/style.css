@@ -399,7 +399,7 @@ table {
 
 .header {
   margin-bottom: 40px;
-  margin: 0 auto 40px auto;
+  margin: 0 auto;
   width: 979px; }
   .header .header__nav {
     height: 123px;
@@ -414,7 +414,8 @@ table {
       display: -ms-flexbox;
       display: flex;
       -ms-flex-pack: distribute;
-          justify-content: space-around; }
+          justify-content: space-around;
+      margin-right: 20px; }
       .header .header__nav nav ul li {
         position: relative; }
         .header .header__nav nav ul li a {
@@ -430,8 +431,8 @@ table {
           color: #ae3b44; }
         .header .header__nav nav ul li .nav--second {
           position: absolute;
-          top: 20px;
-          right: -55px;
+          top: 19px;
+          right: -76px;
           display: -ms-flexbox;
           display: flex;
           -ms-flex-direction: column;
@@ -446,8 +447,8 @@ table {
             content: "🢑";
             display: block;
             position: absolute;
-            top: -32px;
-            left: 68px; }
+            top: -33px;
+            left: 80px; }
           .header .header__nav nav ul li .nav--second::after {
             color: #212121;
             font-size: 25pt;
@@ -464,7 +465,7 @@ table {
               background-color: #212121;
               font-size: 12px;
               padding: 9px 0;
-              width: 140px;
+              width: 145px;
               display: block;
               border-bottom: 1px solid #212121;
               padding-left: 12px;
@@ -477,7 +478,7 @@ table {
               color: #ffffff; }
             .header .header__nav nav ul li .nav--second li ul {
               position: absolute;
-              left: 143px;
+              left: 149px;
               top: 0;
               display: -ms-flexbox;
               display: flex;
@@ -502,15 +503,20 @@ table {
           align-items: flex-start;
       -ms-flex-pack: justify;
           justify-content: space-between;
-      padding: 18px;
+      padding: 23px 33px;
       box-sizing: border-box; }
       .header .header__banner article h3 {
-        font-size: 17pt;
         color: #ffffff;
-        margin-right: 80px; }
+        width: 32%;
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: -0.16px; }
       .header .header__banner article p {
         color: #212121;
-        line-height: 1.5; }
+        font-size: 12px;
+        font-weight: 400;
+        width: 65%;
+        line-height: 19px; }
 
 body {
   width: 100%;
@@ -619,17 +625,21 @@ body {
     -ms-flex-pack: start;
         justify-content: flex-start;
     -ms-flex-align: start;
-        align-items: flex-start; }
+        align-items: flex-start;
+    padding-top: 33px; }
     .main section header {
       display: -ms-flexbox;
       display: flex;
       -ms-flex-align: start;
           align-items: flex-start;
-      border-bottom: 1px solid #bebebf; }
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      border-bottom: 1px solid #bebebf;
+      width: 100%; }
       .main section header h1 {
+        color: #212121;
         font-size: 24px;
-        letter-spacing: -0.16px;
-        color: #212121; }
+        font-weight: 400; }
       .main section header .article__date {
         width: 75px;
         height: 75px;
@@ -643,32 +653,38 @@ body {
             align-items: center;
         background-image: url(../img/lines_texture.png); }
         .main section header .article__date .date--day {
-          font-size: 16pt;
+          font-size: 17px;
           font-weight: bold;
-          color: #bebebf; }
+          color: #bebebf;
+          margin-bottom: 10px; }
         .main section header .article__date .date {
-          font-size: 7pt;
+          font-size: 10px;
           color: #bebebf; }
     .main section article .article__overwiev {
       border-bottom: 1px solid #bebebf;
-      margin-bottom: 20px; }
+      margin-bottom: 26px; }
       .main section article .article__overwiev p {
         color: #929495;
         font-size: 12pt;
         line-height: 1.5;
         font-style: italic;
-        padding: 20px 0; }
+        padding: 21px 0; }
     .main section article .article__part {
       border-bottom: 1px solid #bebebf;
-      margin-bottom: 20px; }
+      margin-bottom: 26px; }
       .main section article .article__part h3 {
         color: #ae3b44;
-        font-size: 12pt;
-        margin-bottom: 20px; }
+        margin-bottom: 37px;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: -0.1px; }
       .main section article .article__part p {
-        line-height: 1.5; }
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19px; }
       .main section article .article__part .article__photo {
         margin: 20px auto;
+        width: 100%;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-direction: column;
@@ -688,7 +704,7 @@ body {
         margin-bottom: 20px; }
         .main section article .article__part p img {
           float: left;
-          margin: 30px 30px 30px 0;
+          margin: 27px 30px 30px 0;
           border-bottom: 7px solid #212121; }
     .main section footer {
       width: 100%;
@@ -698,7 +714,7 @@ body {
           justify-content: space-between;
       -ms-flex-align: center;
           align-items: center;
-      padding-bottom: 20px; }
+      padding-bottom: 24px; }
       .main section footer a {
         text-decoration: none; }
         .main section footer a img:nth-child(1) {
@@ -723,8 +739,10 @@ body {
     -ms-flex-align: center;
         align-items: center; }
     .footer .clients__block h3 {
-      font-size: 17pt;
-      color: #212121; }
+      color: #212121;
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: -0.12px; }
   .footer .footer__container {
     background-color: #f8f8f8;
     box-shadow: 0 0 5px 0 #dcdcdc inset;
@@ -745,7 +763,7 @@ body {
         .footer .footer__container .footer__items .block:nth-child(3) {
           margin-right: 0; }
         .footer .footer__container .footer__items .block h5 {
-          margin-bottom: 28px;
+          margin-bottom: 24px;
           font-size: 15px;
           opacity: 0.3; }
         .footer .footer__container .footer__items .block div {
