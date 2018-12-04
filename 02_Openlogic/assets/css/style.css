@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -443,21 +442,23 @@ table {
           -ms-flex-align: start;
               align-items: flex-start; }
           .header .header__nav nav ul li .nav--second::before {
-            color: #212121;
-            font-size: 25pt;
-            content: "🢑";
+            content: "";
             display: block;
             position: absolute;
-            top: -33px;
-            left: 80px; }
+            width: 10px;
+            height: 3px;
+            background-image: url(../img/arrow_up_header.png);
+            top: -3px;
+            left: 84px; }
           .header .header__nav nav ul li .nav--second::after {
-            color: #212121;
-            font-size: 25pt;
-            content: "🢒";
+            content: "";
             display: block;
             position: absolute;
-            top: -5px;
-            right: 8px; }
+            width: 3px;
+            height: 10px;
+            background-image: url(../img/arrow_right_header.png);
+            top: 10px;
+            right: 11px; }
           .header .header__nav nav ul li .nav--second li {
             display: block;
             position: relative; }
@@ -534,91 +535,97 @@ body {
   display: flex;
   -ms-flex-align: start;
       align-items: flex-start; }
-  .main aside nav {
-    margin-right: 37px;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-pack: start;
-        justify-content: flex-start;
-    -ms-flex-align: start;
-        align-items: flex-start;
-    border-right: 1px solid #e6e6e7; }
-    .main aside nav div {
-      width: 244px;
-      height: 35px;
-      border-bottom: 1px solid #e6e6e7; }
-      .main aside nav div h4 {
-        background-image: url(../img/lines_texture.png);
-        font-size: 14pt;
+  .main aside {
+    padding-top: 48px; }
+    .main aside nav {
+      margin-right: 37px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+      border-right: 1px solid #e6e6e7; }
+      .main aside nav div {
+        width: 244px;
+        height: 35px;
+        border-bottom: 1px solid #e6e6e7; }
+        .main aside nav div h4 {
+          background-image: url(../img/lines_texture.png);
+          font-size: 14pt;
+          color: #212121;
+          padding: 10px 15px;
+          box-sizing: border-box; }
+      .main aside nav ul li a {
+        display: block;
+        padding: 12px 15px;
+        box-sizing: border-box;
+        width: 244px;
+        height: 40px;
         color: #212121;
-        padding: 10px 15px;
-        box-sizing: border-box; }
-    .main aside nav ul li a {
-      display: block;
-      padding: 12px 15px;
-      box-sizing: border-box;
-      width: 244px;
-      height: 40px;
-      color: #212121;
-      background-color: #ffffff;
-      border-bottom: 1px solid #e6e6e7;
-      text-decoration: none;
-      font-size: 10pt; }
-      .main aside nav ul li a:hover {
+        background-color: #ffffff;
+        border-bottom: 1px solid #e6e6e7;
+        text-decoration: none;
+        font-size: 10pt; }
+        .main aside nav ul li a:hover {
+          color: #ae3b44; }
+      .main aside nav ul li .link--hover {
         color: #ae3b44; }
-    .main aside nav ul li .link--hover {
-      color: #ae3b44; }
-    .main aside nav ul li .link--active {
-      background-color: #ae3b44;
-      color: #ffffff;
-      position: relative; }
-      .main aside nav ul li .link--active::after {
-        color: #ae3b44;
-        font-size: 20pt;
-        content: "🢒";
-        display: block;
-        position: absolute;
-        top: 11%;
-        right: -8px; }
-      .main aside nav ul li .link--active:hover {
-        color: #ffffff; }
-    .main aside nav ul li .link--inside {
-      background-color: #f4f7f8;
-      padding-left: 30px; }
-    .main aside nav ul li .link--inside--second {
-      background-color: #eaeaea;
-      padding-left: 45px;
-      position: relative; }
-      .main aside nav ul li .link--inside--second::before {
-        color: #929495;
-        font-size: 25pt;
-        content: "🢒";
-        display: block;
-        position: absolute;
-        top: 1%;
-        left: 30px; }
-    .main aside nav ul li .arrow--right {
-      position: relative; }
-      .main aside nav ul li .arrow--right::after {
-        color: #929495;
-        font-size: 25pt;
-        content: "🢒";
-        display: block;
-        position: absolute;
-        top: 1%;
-        right: 15px; }
-    .main aside nav ul li .arrow--bottom {
-      position: relative; }
-      .main aside nav ul li .arrow--bottom::after {
-        color: #929495;
-        font-size: 25pt;
-        content: "🢓";
-        display: block;
-        position: absolute;
-        top: 34%;
-        right: 15px; }
+      .main aside nav ul li .link--active {
+        background-color: #ae3b44;
+        color: #ffffff;
+        position: relative; }
+        .main aside nav ul li .link--active::after {
+          width: 3px;
+          height: 8px;
+          background-image: url(../img/arrow_rigth_red.png);
+          content: "";
+          display: block;
+          position: absolute;
+          top: 15px;
+          right: -3px; }
+        .main aside nav ul li .link--active:hover {
+          color: #ffffff; }
+      .main aside nav ul li .link--inside {
+        background-color: #f4f7f8;
+        padding-left: 30px; }
+      .main aside nav ul li .link--inside--second {
+        background-color: #eaeaea;
+        padding-left: 45px;
+        position: relative; }
+        .main aside nav ul li .link--inside--second::before {
+          content: "";
+          display: block;
+          position: absolute;
+          width: 4px;
+          height: 7px;
+          background-image: url(../img/arrow_right_nav.png);
+          top: 15px;
+          left: 30px; }
+      .main aside nav ul li .arrow--right {
+        position: relative; }
+        .main aside nav ul li .arrow--right::after {
+          content: "";
+          display: block;
+          position: absolute;
+          width: 4px;
+          height: 7px;
+          background-image: url(../img/arrow_right_nav.png);
+          top: 15px;
+          right: 15px; }
+      .main aside nav ul li .arrow--bottom {
+        position: relative; }
+        .main aside nav ul li .arrow--bottom::after {
+          content: "";
+          display: block;
+          position: absolute;
+          width: 7px;
+          height: 4px;
+          background-image: url(../img/arrow_down_nav.png);
+          top: 15px;
+          right: 15px; }
   .main section {
     display: -ms-flexbox;
     display: flex;
