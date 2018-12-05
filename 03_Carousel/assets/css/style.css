@@ -414,6 +414,8 @@ main {
       justify-content: space-between;
   -ms-flex-align: center;
       align-items: center; }
+  main:hover .card {
+    animation-play-state: paused; }
   main .card {
     height: 300px;
     width: 150px;
