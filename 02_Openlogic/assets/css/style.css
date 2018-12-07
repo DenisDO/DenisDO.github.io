@@ -416,6 +416,8 @@ table {
       -ms-flex-pack: distribute;
           justify-content: space-around;
       margin-right: 20px; }
+      .header .header__nav nav .nav--first > li {
+        padding: 5px 0; }
       .header .header__nav nav .nav--first li {
         position: relative; }
         .header .header__nav nav .nav--first li a {
